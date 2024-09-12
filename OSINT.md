@@ -21,8 +21,8 @@
 * [Automating-OSINT-Example](#Automating-OSINT-Example)
 
 ## General
-- Two main facets of recon: Organisational and technical.
-- Gathering can be done passively or actively.
+- Dos facetas principales del reconocimiento: organizativa y técnica.
+- La recolección de información puede realizarse de forma pasiva o activa.
 
 #### OSINT Frameworks
 - https://github.com/lanmaster53/recon-ng
@@ -158,11 +158,11 @@ gitleaks --repo-url=<GIT REPO URL> -v
 - https://www.spokeo.com/
 - https://thatsthem.com/
 
-### Search números de teléfonos
+### Buscar números de teléfonos
 - https://www.truecaller.com/
 - https://calleridtest.com/
 - https://infobel.com/
-- Can also check out logins, forget password and check for phone number!
+- ¡También puede consultar inicios de sesión, contraseñas olvidadas y verificar el número de teléfono!
 
 #### phoneinfoga
 - https://github.com/sundowndev/phoneinfoga
@@ -185,7 +185,7 @@ phoneinfoga scan -n <COUNTRYCODE><PHONENUMBER>
 #### Shodan.io
 - https://shodan.io/
 
-#### Check old versions of the website / files
+#### Verifique versiones antiguas del sitio web / archivos
 - https://web.archive.org/
 
 ### Hunting subdominios
@@ -313,7 +313,7 @@ twint -u <USER> -s <STRING>
 - https://www.linkedin.com/
 
 ## Business
-- Check them out on LinkedIn / Twitter / Social media etc.
+- Consúltelos en LinkedIn / Twitter / Redes sociales, etc.
 - https://opencorporates.com/
 - https://www.aihitdata.com/
 
@@ -345,26 +345,26 @@ cat iplist.txt | python ip2provider.py
 ```
 
 #### Azure / O365 usage
-- Add domain to following url, if exists there is a tenant: 
+- Agregar dominio a la siguiente URL, si existe hay un tenant: 
 ```
 https://login.microsoftonline.com/<TARGET DOMAIN>/v2.0/.well-known/openid-configuration
 ```
 
-#### Google Workspace Usage
-- Try to authenticate with a valid company email adress at gmail
+#### Uso de Google Workspace
+- Intente autenticarse con una dirección de correo electrónico válida de la empresa en Gmail
 - https://accounts.google.com/
 
-#### AWS usage
-- Check if any resources are being loaded from S3 buckets
-- Using burp, navigate the webapp and check for any calls to ```https://[bucketname].s3.amazonaws.com ``` or  ```• https://s3-[region].amazonaws.com/[Org Name]```
+#### Uso de AWS
+- Verificar si se están cargando recursos desde los buckets S3
+- Con burp, navegue por la aplicación web y verifique si hay llamadas a ```https://[bucketname].s3.amazonaws.com ``` or  ```• https://s3-[region].amazonaws.com/[Org Name]```
 
-#### Box.com usage
-- Look for any login portals
+#### Uso de Box.com
+- Busque portales de inicio de sesión
 - https://companyname.account.box.com
 
 ### Enumerar recursos públicos
 #### Cloud enum
-- Possible to use multiple `-k` keywords.
+- Es posible utilizar múltiples palabras clave `-k`.
 ```
 python3 cloud_enum.py -k <KEYWORD>
 ```
