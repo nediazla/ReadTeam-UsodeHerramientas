@@ -184,6 +184,11 @@ phoneinfoga scan -n <COUNTRYCODE><PHONENUMBER>
 
 #### Shodan.io
 - https://shodan.io/
+### Queries
+- https://github.com/jakejarvis/awesome-shodan-queries
+
+### censys
+- https://search.censys.io/
 
 #### Verifique versiones antiguas del sitio web / archivos
 - https://web.archive.org/
