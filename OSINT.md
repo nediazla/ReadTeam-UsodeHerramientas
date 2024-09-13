@@ -98,6 +98,9 @@ whois <IP>
 theHarvester -d <DOMAIN> -b google -l 500
 ```
 
+#### miniconda
+- https://docs.anaconda.com/miniconda/
+
 ## Hunting nombre de usuarios
 - https://namechk.com/
 - https://whatsmyname.app/
@@ -184,14 +187,15 @@ phoneinfoga scan -n <COUNTRYCODE><PHONENUMBER>
 
 #### Shodan.io
 - https://shodan.io/
-### Queries
+#### Queries
 - https://github.com/jakejarvis/awesome-shodan-queries
 
-### censys
+#### censys
 - https://search.censys.io/
 
 #### Verifique versiones antiguas del sitio web / archivos
 - https://web.archive.org/
+- https://archive.org/
 
 ### Hunting subdominios
 - Script que utiliza múltiples herramientas para enumerar subdominios: https://github.com/Gr1mmie/sumrecon
